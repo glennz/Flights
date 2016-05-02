@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{440DA80C-8A56-43A9-9164-46F828C84D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo", "FlightManager\Repo.csproj", "{0262468D-F8F9-4A8A-BD2E-1E99719FF748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightManagerTests", "FlightManagerTests\FlightManagerTests.csproj", "{72C32BD2-AE3C-411A-B4AA-43815E6429CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{440DA80C-8A56-43A9-9164-46F828C84D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440DA80C-8A56-43A9-9164-46F828C84D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440DA80C-8A56-43A9-9164-46F828C84D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440DA80C-8A56-43A9-9164-46F828C84D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0262468D-F8F9-4A8A-BD2E-1E99719FF748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0262468D-F8F9-4A8A-BD2E-1E99719FF748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0262468D-F8F9-4A8A-BD2E-1E99719FF748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0262468D-F8F9-4A8A-BD2E-1E99719FF748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C32BD2-AE3C-411A-B4AA-43815E6429CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C32BD2-AE3C-411A-B4AA-43815E6429CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C32BD2-AE3C-411A-B4AA-43815E6429CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C32BD2-AE3C-411A-B4AA-43815E6429CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

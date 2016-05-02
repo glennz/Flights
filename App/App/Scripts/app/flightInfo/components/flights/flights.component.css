@@ -1,0 +1,64 @@
+﻿.flights {
+    margin-top: 20px;
+}
+
+.flights .title div {
+    font-weight: bold;
+    height: 10px;
+}
+
+.flights .data div {
+    height: 25px;
+}
+
+.flights .empty-block {
+    width: 100%;
+    min-height: 300px;
+    margin-left: 30px;
+}
+
+.flights a {
+    padding: 0 6px 0 6px;
+}
+
+.flights a:link {
+    text-decoration: none;
+}
+
+.flights a:hover {
+    text-decoration: none;
+}
+
+.flights a:visited {
+    text-decoration: none;
+}
+
+@media (max-width:320px) {
+    .flights .mobile {
+        display:none
+    }
+
+    .flights .data div {
+        height: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .flights .desktop {
+        display:none
+    }
+
+    .flights .data div {
+        height: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .flights .desktop {
+        display:none
+    }
+
+    .flights .data div {
+        height: 50px;
+    }
+}

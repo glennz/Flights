@@ -1,0 +1,5 @@
+C:\Test Projects\FlightManager\App\FlightManager\bin\Debug\FlightManager.dll
+C:\Test Projects\FlightManager\App\FlightManager\bin\Debug\FlightManager.pdb
+C:\Test Projects\FlightManager\App\FlightManager\obj\Debug\FlightManager.dll
+C:\Test Projects\FlightManager\App\FlightManager\obj\Debug\FlightManager.pdb
+C:\Test Projects\FlightManager\App\FlightManager\obj\Debug\FlightManager.csprojResolveAssemblyReference.cache

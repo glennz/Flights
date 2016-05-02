@@ -1,0 +1,12 @@
+﻿<div class="gates">
+    <div class="container">
+        <h1>GATES</h1>
+        <div class="row">
+            <a ng-repeat="gid in ctrl.gateIds" ng-click="ctrl.clickGate(gid)" class="col-xs-6 col-sm-3 col-md-3">
+                <div class="gate-tile">
+                    <span ng-class="{selected: gid==ctrl.selectedId}">GATE {{gid}}</span>
+            </div>
+            </a>
+        </div>
+    </div>
+</div>

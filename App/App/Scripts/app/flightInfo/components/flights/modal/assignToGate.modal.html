@@ -1,0 +1,37 @@
+﻿<div class="container-fluid">
+    <div class="row heading">
+        <div class="col-xs-12">
+            <h3>
+                <span class="fa fa-warning warning"></span> Assign Flight to Gate {{gateId}}
+            </h3>
+        </div>
+    </div>
+    <div class="row body-content">
+        <div class="col-xs-12">
+            <form>
+                <div class="form-group">
+                    <label for="flightno">Flight Number</label>
+                    <p>{{flight.flightNo}}</p>
+                </div>
+                <div class="form-group">
+                    <label for="arrivalTime">Arrival Time</label>
+                    <p>{{flight.arrivalDateTime | date: 'dd/MM/yyyy HH:mm'}}</p>
+                </div>
+                <div class="form-group">
+                    <label for="departureTime">Departure Time</label>
+                    <p>{{flight.departureDateTime | date: 'dd/MM/yyyy HH:mm'}}</p>
+                </div>
+                <div class="form-group">
+                    <label for="gateid">Gate Number</label>
+                    <input type="number" class="form-control" id="gateid" placeholder="Gate Number" ng-model="gateId">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row call-to-action">
+        <div class="col-xs-10 col-xs-offset-1 text-center">
+            <button type="button" class="btn btn-tertiary" ng-click="ok()">Save</button>
+            <button type="button" class="btn btn-secondary" ng-click="cancel()">Cancel</button>
+        </div>
+    </div>
+</div>

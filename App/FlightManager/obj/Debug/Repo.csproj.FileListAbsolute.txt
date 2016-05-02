@@ -1,0 +1,4 @@
+C:\Test Projects\FlightManager\App\FlightManager\bin\Debug\FlightRepo.dll
+C:\Test Projects\FlightManager\App\FlightManager\bin\Debug\FlightRepo.pdb
+C:\Test Projects\FlightManager\App\FlightManager\obj\Debug\FlightRepo.dll
+C:\Test Projects\FlightManager\App\FlightManager\obj\Debug\FlightRepo.pdb

@@ -1,0 +1,36 @@
+﻿.gates {
+}
+
+.gates .gate-tile {
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+    margin: 4px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    border: solid 4px #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.gates .gate-tile .selected{
+    color: #f0ffff;
+}
+
+.gates a {
+    color: #000;
+}
+
+.gates a:link {
+    text-decoration: none;
+}
+
+.gates a:visited {
+    text-decoration: none;
+}
+
+.gates a:hover {
+    text-decoration: none;
+}
+

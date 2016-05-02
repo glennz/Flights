@@ -1,0 +1,64 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.chq-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.chq {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/chq.jpg");
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 320px;    
+}
+
+.chq span {
+    font-weight: bold;
+}
+
+.section1 {
+    padding-top: 90px;
+}
+
+.section2 {
+    padding-top: 30px;
+}
+
+.section2col1 {
+    padding-left: 100px;
+}
+
+.section2col2 {
+    padding-left: 30px;
+}
+
+.section3 {
+    padding-top: 20px;
+}
+
+.section3col1 {
+    padding-left: 80px;
+}
+

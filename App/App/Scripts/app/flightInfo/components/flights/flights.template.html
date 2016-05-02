@@ -1,0 +1,44 @@
+﻿<div class="flights">
+    <div class="container">
+        <div class="row title" ng-show="ctrl.gate">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                Flight Number
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <span class="fa fa-plane" aria-hidden="true"></span> Arrival
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                <span class="fa fa-plane" aria-hidden="true"></span> Departure
+            </div>
+            <div class="col-xs-1 col-sm-1 col-md-1 mobile">
+                Status
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 desktop mobile">
+                <a href="" class="fa fa-plus" aria-hidden="true" title="Create flight" ng-click="ctrl.openAddModal()"></a>
+            </div>
+        </div>
+        <hr ng-show="ctrl.gate">
+        <div ng-repeat="flight in ctrl.gate.flightDtos" class="row data">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                {{flight.flightNo}}
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                {{flight.arrivalDateTime | date:'dd/MM/yyyy HH:mm'}}
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+                {{flight.departureDateTime | date:'dd/MM/yyyy HH:mm'}}
+            </div>
+            <div class="col-xs-1 col-sm-1 col-md-1 mobile">
+                <span ng-show="flight.active">Active</span>
+                <span ng-show="!flight.active">Cancelled</span>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 desktop mobile" ng-show="flight.active">
+                <a href="" class="fa fa-pencil" aria-hidden="true" title="Update time" ng-click="ctrl.openUpdateModal(flight)"></a>
+                <a href="" class="fa fa-times" aria-hidden="true" title="Cancel" ng-click="ctrl.cancelFlight(flight)"></a>
+                <a href="" class="fa fa-paper-plane-o" aria-hidden="true" title="Assign to new gate" ng-click="ctrl.openAssignToGateModal(flight)"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="empty-block" ng-show="!ctrl.gate">Please select a gate.</div>
+</div>
