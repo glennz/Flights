@@ -32,7 +32,9 @@ Angularjs sit on the top of MVC for eazy launch only and review.
 
 
 Angular directory:
+
 Scripts/app/flightInfo/components/
+
 Scripts/app/flightInfo/services/
 
 Things not include:
