@@ -20,10 +20,15 @@ Angularjs sit on the top of MVC for eazy launch only and review.
 *********Instruction to run the project*********
 
 1 Download the project from github by clicking the download button and get a zip file
+
 2 Extract the zip file
+
 3 Double click the .sln file to open the project in Visual studio 2013.
+
 4 Build -> Build Soultion
+
 5 Hightlight Solution 'App', click Run
+
 
 
 Angular directory:
